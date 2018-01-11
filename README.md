@@ -2,7 +2,8 @@
 
 This is a single page RSS feed reader application provided by Udacity.  The feeds are defined within the app.js file:
 
-```var allFeeds = [
+```
+var allFeeds = [
     {
         name: 'Udacity Blog',
         url: 'http://blog.udacity.com/feed'
@@ -16,7 +17,8 @@ This is a single page RSS feed reader application provided by Udacity.  The feed
         name: 'Linear Digressions',
         url: 'http://feeds.feedburner.com/udacity-linear-digressions'
     }
-];```
+];
+```
 
 The Feeds load automatically when the page loads.  To change the feed, open the "hamburger menu" item in the top left, and select the feed you wish to view.  Clicking any of the articles should take you directly to the article at the source location.
 
