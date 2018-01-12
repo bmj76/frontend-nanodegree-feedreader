@@ -59,9 +59,6 @@ $(function() {
 					+ ' has an empty name.');
 			}
 		});
-
-
-
 	});
 
 
@@ -113,8 +110,6 @@ $(function() {
 			expect(allDomFeeds).not.toBeLessThan(1);
 			done();
 		});
-
-
 	});
 	
 	/* Write a new test suite named "New Feed Selection" */	
@@ -146,10 +141,5 @@ $(function() {
 			expect(after === before).toBe(false);
 			done();
 		});
-
 	});
-
-
-
-
 }());
