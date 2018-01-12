@@ -22,7 +22,7 @@ var allFeeds = [
 
 The Feeds load automatically when the page loads.  To change the feed, open the "hamburger menu" item in the top left, and select the feed you wish to view.  Clicking any of the articles should take you directly to the article at the source location.
 
-I modified this project by adding a Jasmine test suite with 7 specifications[^1].  These are displayed at the bottom of the screen.  All tests should pass.  If a test fails it should be clear as to why it failed.
+I modified this project by adding a Jasmine test suite with 7 specifications.  These are displayed at the bottom of the screen.  All tests should pass.  If a test fails it should be clear as to why it failed.
 
 ## Getting Started
 
@@ -33,6 +33,20 @@ Start the python simple server web server fromt he same folder as the repository
 
 Open a browser window and navigate to localhost:8000
 
-## [1:]Jasmine Test Specifications
+## Jasmine Test Specifications
 
-1. 
+- RSS Feeds
+-- The allFeeds variable is defined
+-- The allFeeds variable is not empty
+-- All feeds have names
+-- All feeds have urls
+
+- The Menu
+-- Is hidden by default when the page loads
+-- Opens and closes when the hamburger menu is clicked
+
+- Initial Entries
+-- Upon the running the loadFeed function, there is at least 1 article displayed
+
+- New Feed Selection
+-- When a new feed is loaded, the content changes
