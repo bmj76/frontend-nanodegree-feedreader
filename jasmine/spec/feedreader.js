@@ -36,10 +36,10 @@ $(function() {
 			 * Custom exception message used because there are two tests bundled together
 			 */
 			for (var i = 0, feedLength = allFeeds.length; i < feedLength; i++) {
-				expect(allFeeds[i].url).toBeDefined('The object at index: ' + i 
-					+ ' does not have a url key.');
-				expect(allFeeds[i].url.length).not.toBe(0, 'The object at index: ' + i 
-					+ ' has an empty url.');
+				expect(allFeeds[i].url).toBeDefined('The object at index: ' + i + 
+					' does not have a url key.');
+				expect(allFeeds[i].url.length).not.toBe(0, 'The object at index: ' + i + 
+					' has an empty url.');
 			}
 		});
 
@@ -53,10 +53,10 @@ $(function() {
 			 * Custom exception message used because there are two tests bundled together
 			 */
 			for (var i = 0, feedLength = allFeeds.length; i < feedLength; i++) {
-				expect(allFeeds[i].name).toBeDefined('The object at index: ' + i 
-					+ ' does not have a name key.');
-				expect(allFeeds[i].name.length).not.toBe(0,'The object at index: ' + i 
-					+ ' has an empty name.');
+				expect(allFeeds[i].name).toBeDefined('The object at index: ' + i + 
+					' does not have a name key.');
+				expect(allFeeds[i].name.length).not.toBe(0,'The object at index: ' + i + 
+					' has an empty name.');
 			}
 		});
 	});
