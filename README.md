@@ -35,18 +35,14 @@ Open a browser window and navigate to localhost:8000
 
 ## Jasmine Test Specifications
 
-- RSS Feeds
--- The allFeeds variable is defined
--- The allFeeds variable is not empty
--- All feeds have names
--- All feeds have urls
+- RSS Feeds - The allFeeds variable is defined
+- RSS Feeds - The allFeeds variable is not empty
+- RSS Feeds - All feeds have names
+- RSS Feeds - All feeds have urls
 
-- The Menu
--- Is hidden by default when the page loads
--- Opens and closes when the hamburger menu is clicked
+- The Menu - Is hidden by default when the page loads
+- The Menu - Opens and closes when the hamburger menu is clicked
 
-- Initial Entries
--- Upon the running the loadFeed function, there is at least 1 article displayed
+- Initial Entries - Upon the running the loadFeed function, there is at least 1 article displayed
 
-- New Feed Selection
--- When a new feed is loaded, the content changes
+- New Feed Selection - When a new feed is loaded, the content changes
